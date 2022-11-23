@@ -19,7 +19,7 @@ APP_CODE = 'lytest'
 SECRET_KEY = '0fc5744a-8c00-4d8f-9ca6-098506fe18de'
 # 蓝鲸SaaS平台URL，例如 http://paas.bking.com
 BK_URL = 'http://paas.ce16.bktencent.com:80'
-
+# BK_URL = os.getenv("BK_PAAS_HOST")
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(
     __file__)))
