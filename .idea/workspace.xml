@@ -5,9 +5,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f80732b-2d9d-43df-b69c-a272d6c6c370" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/blueapps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/bk_token/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/bk_token/backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/bk_token/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/bk_token/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/bk_token/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/null/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/weixin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/weixin/backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/weixin/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/components/weixin/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/handlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/handlers/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/migrations/0002_init_superuser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/migrations/0003_verifyinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/sites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/sites/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/sites/open/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/sites/open/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/static/account/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/templates/account/login_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/templates/account/login_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/utils/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/utils/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/account/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/default_settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/environ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/sites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/conf/sites/open/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/commands/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/commands/startexample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/commands/startweixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/commands/startwxapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/management/templates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/contrib/bk_commands/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/celery/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/celery/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/exceptions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/exceptions/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/exceptions/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/handler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/handler/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/sites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/sites/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/core/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/request_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/xss/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/xss/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/xss/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/xss/pxfilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/middleware/xss/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/patch/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/patch/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/patch/settings_open_saas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/patch/settings_paas_services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/template/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/template/backends/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/template/backends/mako.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/template/context_processors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/esbclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/request_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/sites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/sites/open/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueapps/utils/unique.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/bk_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/bk_paas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/cc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/cmsi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/gse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/sops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/shortcuts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/test_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/test_shortcuts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/tests/utils/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +191,8 @@
       <workItem from="1669190599163" duration="138000" />
       <workItem from="1669190740116" duration="1778000" />
       <workItem from="1669192533276" duration="114000" />
+      <workItem from="1669192650152" duration="1497000" />
+      <workItem from="1669281887205" duration="379000" />
     </task>
     <servers />
   </component>
@@ -86,5 +204,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
